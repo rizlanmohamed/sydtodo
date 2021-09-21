@@ -1,0 +1,126 @@
+.loginPanelBackground{
+  background-image: linear-gradient(to bottom right, #141e30, #243b55);
+  height: 100vh; 
+  background-position: center;
+  background-size: cover;
+  color: white;
+ /* text-align: center;*/
+  margin: 0 auto 0 auto;
+  background-repeat: repeat-y;
+}
+
+.my{
+  background-color: red;
+}
+
+.inputStyle{
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background-color: transparent;
+  border: 1px #C9C9C9 solid;
+  color: #C9C9C9;
+  padding-left: 20px;
+  transition: 0.2s all;
+}
+
+.inputStyle:focus{
+  border-radius: 8px 15px 8px 15px;
+  outline: none;
+  transition: 0.2s all;
+}
+
+.buttonStyle{
+  border-radius: 8px;
+  background-color: #C9C9C9;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  color: #2c2c2c;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .logo{
+  
+    background-image: url('./assets/img/logo.png');
+    background-repeat:no-repeat;
+     background-size:contain;
+     height: 120px;
+     width: 120px;
+  }
+}
+.takeTextCenter{
+  text-align: center;
+}
+
+.takeMeRight{
+  float: right;
+}
+
+.takeTextRight{
+  text-align: right;
+}
+
+
+.blueColorText{
+  color: #0275d8;
+}
+
+.fullWidth{
+  width: 80%;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.7);
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+  border-bottom: 15px #0275d8 solid;
+}
+
+.popupHeader h5{
+  color: #443e3e;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 3px #0275d8 solid;
+}
+
+.popupBody{
+  width: 100%;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.inputStyleTodo{
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  background-color: transparent;
+  border: 1px #303030 solid;
+  color: #303030;
+  padding-left: 20px;
+  transition: 0.2s all;
+}
+
+.inputStyleTodo:focus{
+  border-radius: 8px 15px 8px 15px;
+  outline: none;
+  transition: 0.2s all;
+}
