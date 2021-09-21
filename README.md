@@ -10,16 +10,16 @@ This project was bootstrapped with Create React App.
 <li>Delete a task</li>
 <li>Data saved through MySQL Database 📦</li>
 
-## Username and Password
-Username: Rizlan<br>
-Password: Rizlan12345
-
 ### Way to run the app:
 <li>Download or Pull the files from the GitHub</li>
 <li> Run “Npm install” in the main file and server directory (Should run in two places)</li>
 <li>Import the database inside into MySQL</li>
 <li>Npm run dev to start the app</li>
 <li>Enjoy !!! </li>
+
+## Username and Password
+Username: Rizlan<br>
+Password: Rizlan12345
 
 # Getting Started with Create React App
 
