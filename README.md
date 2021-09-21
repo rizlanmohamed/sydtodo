@@ -12,8 +12,8 @@ This project was bootstrapped with Create React App.
 
 ### Way to run the app:
 <li>Download or Pull the files from the GitHub</li>
-<li> Run “Npm install” in the main file and server directory (Should run in two places)</li>
-<li>Import the database inside into MySQL</li>
+<li>Run “Npm install” in the main file and server directory (Should run in two places)</li>
+<li>Import the database inside into MySQL(file inside "db" directory)</li>
 <li>Npm run dev to start the app</li>
 <li>Enjoy !!! </li>
 
