@@ -12,7 +12,9 @@ This project was bootstrapped with Create React App.
 
 ### Way to run the app:
 <li>Download or Pull the files from the GitHub</li>
-<li>Run “Npm install” in the main file and server directory (Should run in two places)</li>
+<li>Run "npm install && cd server && npm install && cd ../" in the CMD, , run it in project path <b>- recommended</b></li>
+<li>OR</li>
+<li>Run "(npm install cd server) -and (npm install cd ../)" in Visual Studio terminal, run it in project path</li>
 <li>Import the database inside into MySQL(file inside "db" directory)</li>
 <li>Npm run dev to start the app</li>
 <li>Enjoy !!! </li>
